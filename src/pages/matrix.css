@@ -1,0 +1,19 @@
+body {
+    margin: 100;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .matrix-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Buradaki değişiklik */
+    height: 100vh;
+  }
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
